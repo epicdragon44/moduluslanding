@@ -6,7 +6,7 @@
 /* =================================== */
 /*  Basic Style
 /* =================================== */
-@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
 
 div {
 	border-radius: 10px;
@@ -668,7 +668,7 @@ td, th {
   background-image: -moz-linear-gradient(0deg, #003459 0%, #003459 100%);
   background-image: -webkit-linear-gradient(0deg, #003459 0%, #003459 100%);
   background-image: -ms-linear-gradient(0deg, #003459 0%, #003459 100%);
-  background-image: -o-linear-gradient(0deg, #003459 0%, #003459 100%); 
+  background-image: -o-linear-gradient(0deg, #003459 0%, #003459 100%);
   border-radius: 10px;}
 
 .p1-gradient-color {
@@ -1940,7 +1940,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .home-banner-content h1 {
   font-size: 55px;
-  font-family: "Patua One";
+  font-family: "Raleway";
   font-weight: 400;
   margin-bottom: 25px; }
   @media (max-width: 991.98px) {
@@ -2043,9 +2043,6 @@ box-shadow: 0 10px 29px 0 rgb(201, 201, 201); }
       .feature-area .single-feature {
         margin-bottom: 30px; } }
     .feature-area .single-feature h3 {
-      -webkit-transition: all 0.3s ease 0s;
-      -moz-transition: all 0.3s ease 0s;
-      -o-transition: all 0.3s ease 0s;
       transition: all 0.3s ease 0s;
       font-size: 21px; }
     .feature-area .single-feature .title .lnr {
