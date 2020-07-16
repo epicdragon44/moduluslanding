@@ -16,6 +16,22 @@ button {
 	border-radius: 10px;
 }
 
+.vid-bg {
+	background-color: #222222;
+	color: white;
+	margin: 0 0 0 0;
+	padding-bottom: 5em;
+	padding-top: 5em;
+}
+
+.vid-bg h1 {
+	color: white;
+}
+
+#special {
+	color: white;
+}
+
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #46dbf9;
@@ -2181,7 +2197,6 @@ box-shadow: 0 10px 29px 0 rgb(201, 201, 201); }
         text-align: center; } }
 
 .pricing-area {
-  padding: 150px 0;
   position: relative; }
   @media (max-width: 991px) {
     .pricing-area {
