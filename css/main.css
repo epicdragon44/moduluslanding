@@ -8,6 +8,10 @@
 /* =================================== */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
 
+#featuresanchor {
+	margin-top: 5em;
+}
+
 div {
 	border-radius: 10px;
 }
@@ -680,7 +684,7 @@ td, th {
 .alert-msg {
   color: #008000; }
 
-.p1-gradient-bg, .buttons.gray:hover, .primary-btn, .feature-area .single-feature .title .lnr, .testimonials-area .owl-thumb-item.active .overlay-grad, .testimonials-area .owl-thumb-item .overlay-grad:hover, .single-price:hover .price-btn, .top-category-widget-area .single-cat-widget:hover .overlay-bg, .post-content-area .single-post .primary-btn:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .widget-wrap .newsletter-widget .bbtns, .footer-area .single-footer-widget .click-btn, .footer-area .footer-bottom .footer-social a:hover {
+.p1-gradient-bg, .buttons.gray:hover, .primary-btn, .feature-area .a-feature .title .lnr, .testimonials-area .owl-thumb-item.active .overlay-grad, .testimonials-area .owl-thumb-item .overlay-grad:hover, .single-price:hover .price-btn, .top-category-widget-area .single-cat-widget:hover .overlay-bg, .post-content-area .single-post .primary-btn:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .widget-wrap .newsletter-widget .bbtns, .footer-area .single-footer-widget .click-btn, .footer-area .footer-bottom .footer-social a:hover {
   background-image: -moz-linear-gradient(0deg, #003459 0%, #003459 100%);
   background-image: -webkit-linear-gradient(0deg, #003459 0%, #003459 100%);
   background-image: -ms-linear-gradient(0deg, #003459 0%, #003459 100%);
@@ -2050,30 +2054,30 @@ body.mobile-nav-active #mobile-nav-toggle {
     @media (max-width: 991px) {
       .feature-area:after {
         display: none; } }
-  .feature-area .single-feature {
+  .feature-area .a-feature {
     background: #fff;
     padding: 40px 30px;
     text-align: center;
 box-shadow: 0 10px 29px 0 rgb(201, 201, 201); }
     @media (max-width: 991px) {
-      .feature-area .single-feature {
+      .feature-area .a-feature {
         margin-bottom: 30px; } }
-    .feature-area .single-feature h3 {
+    .feature-area .a-feature h3 {
       transition: all 0.3s ease 0s;
       font-size: 21px; }
-    .feature-area .single-feature .title .lnr {
+    .feature-area .a-feature .title .lnr {
       color: #fff;
       font-weight: 600;
       font-size: 24px;
       padding: 30px;
       display: inline-block;
       margin-bottom: 40px; }
-    .feature-area .single-feature p {
+    .feature-area .a-feature p {
       margin-bottom: 0px;
       margin-top: 20px; }
-    .feature-area .single-feature:hover {
+    .feature-area .a-feature:hover {
       cursor: pointer; }
-      .feature-area .single-feature:hover h3 {
+      .feature-area .a-feature:hover h3 {
         color: #46dbf9; }
 
 .img-fluid {
