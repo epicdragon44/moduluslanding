@@ -66,15 +66,32 @@ button {
 	margin: 0 0 0 0;
 	padding-bottom: 5em;
 	padding-top: 5em;
+	
 }
 
-.vid-bg h1 {
-	color: white;
+@media only screen and (min-width: 1300px) {
+  .vid-bg {
+  	background: url(./magellanbg2.png) center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+  }
+  .vid-bg h1 {
+ 	color: black;
+  }
+  #special {
+	color: black;
+  }
 }
 
-#special {
+@media only screen and (max-width: 1300px) {
+  .vid-bg h1 {
+ 	color: white;
+  }
+  #special {
 	color: white;
+  }
 }
+
 
 ::-moz-selection {
   /* Code for Firefox */
@@ -1946,7 +1963,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff; }
 
 .home-banner-area {
-  /* background: url(../img/FullBG.png) center; */
+
   background-size: cover; }
   .home-banner-area .banner-img {
     text-align: right; }
